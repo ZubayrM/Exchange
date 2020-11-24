@@ -1,0 +1,15 @@
+package Project.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ResultConversionDto {
+
+    private Long id;
+
+    private Double sum;
+}
